@@ -4,7 +4,7 @@
     [Email]        VARCHAR (50) NOT NULL,
     [PasswordSalt] VARCHAR (32) NOT NULL,
     [Password]     VARCHAR (64) NOT NULL,
-    [CreationDate] DATETIME     NOT NULL,
+    [CreationDate] DATETIME     NOT NULL, 
     CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED ([IdUser] ASC)
 );
 GO
